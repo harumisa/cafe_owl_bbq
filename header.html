@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe OWL BBQ</title>
+  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="headerarea">
+    <header>
+      <a href="index.php" class="a-deconone"><p class="headertitle">Cafe OWL BBQ</p></a>
+      <div class="headermenu">
+        <a href="index.php#jumpscroll1" class="a-deconone"><div class="headermenu-item1">
+          <p><span class="headerspan">Concept</span></p><p>-コンセプト-</p>
+          <div class="headermenu-item-underline"></div>
+        </div></a>
+        <a href="index.php#jumpscroll2" class="a-deconone"><div class="headermenu-item2">
+          <p><span class="headerspan">Guide</span></p><p>-ご利用案内-</p>
+          <div class="headermenu-item-underline"></div>
+        </div></a>
+        <a href="menu.php" class="a-deconone"><div class="headermenu-item3">
+          <p><span class="headerspan">Menu</span></p><p>-メニュー-</p>
+          <div class="headermenu-item-underline"></div>
+        </div></a>
+        <a href="reservation_terms.php" target="_blank" rel="noopener noreferrer" class="a-deconone"><div class="headermenu-item4">
+          <p><span class="headerspan">Reservation</span></p><p>-ご予約-</p>
+          <div class="headermenu-item-underline"></div>
+        </div></a>
+      </div>
+    </header>
+  </div>
+  <script>
+    $(function() {
+      $('#jumpscroll1').on('click', function() {
+        var jumpposition1Top = $('#jumpposition1').offset().top;
+        $('html').animate({scrollTop: jumpposition1Top});
+      });
+
+      $('#jumpscroll2').on('click', function() {
+        var jumpposition2Top = $('#jumpposition2').offset().top;
+        $('html').animate({scrollTop: jumpposition2Top});
+      });
+
+      $('.headermenu-item1, .headermenu-item2, .headermenu-item3, .headermenu-item4').mouseover(function() {
+        $(this).find('.headermenu-item-underline').addClass('headermenu-item-underline-fix');
+      }).mouseout(function() {
+        $(this).find('.headermenu-item-underline').removeClass('headermenu-item-underline-fix');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,548 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* ------------------------ */
+
+
+/* reservation_terms */
+
+.reservation-main {
+  width: 100%;
+  padding: 100px 0px 200px 0px;
+  background-image: url(/img/reservation-backimage.jpg);
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.termsofuse {
+  padding: 50px;
+  width: 70%;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: white;
+}
+
+.termsofuse-title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.termsofuse-text {
+  font-size: 14px;
+}
+
+.termsofuse-confirm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkbtn-box {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submitbtn {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 14pt;
+  text-align: center;
+  color: white;
+  background-color: #c30;
+  border: 1px solid #c30;
+}
+
+.submitbtn-before {
+  opacity: 0.7;
+}
+
+.submitbtn-after {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+/* reservation_new */
+
+.vali-return-msg {
+  height: 14px;
+  font-size: 10px;
+  color: red;
+}
+
+.reservation-main {
+  width: 100%;
+  padding: 100px 0px 200px 0px;
+  background-image: url(/img/reservation-backimage.jpg);
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formback {
+  width: 70%;
+  padding: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: white;
+}
+
+.formarea {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formarea-title {
+  margin: 30px 0px 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fieldtitle {
+  height: 20px;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+}
+
+.inputfield {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.fieldwidth2 {
+  width: 99%;
+  margin-bottom: 24px;
+}
+
+.fieldwidth3 {
+  width: 50px;
+}
+
+.fieldwidth4 {
+  width: 85%;
+  margin-right: 5px;
+}
+
+.fieldwidth5 {
+  width: 180px;
+}
+
+.formspan1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.formspan2 {
+  color: red;
+}
+
+.formspan3 {
+  color: #c30;
+}
+
+.conditions-block {
+  margin-right: 15px;
+}
+
+.child-margin {
+  margin-right: 5px;
+}
+
+.child-nowrap {
+  white-space: nowrap;
+}
+
+.precautions {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+#bbqset-coursetoadd, #drink-coursetoadd, #option-coursetoadd {
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  width: calc(86% + 50px);
+  text-align: center;
+  color: grey;
+  border: 1px solid silver;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+/* reservation_new_レスポンシブ */
+
+@media not screen and (max-width: 1040px) {
+
+  .formarea-block, .after-bbqset, .after-drink, .after-option {
+    display: flex;
+    align-items: center;
+  }
+
+  .fieldwidth1 {
+    width: 50%;
+    margin-right: 5px;
+  }
+
+  .child-block {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+  .fieldwidth1 {
+    width: 99%;
+    margin-right: 5px;
+  }
+
+  .child-block {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 865px) {
+
+  .fieldwidth4 {
+    width: 70%;
+    margin-right: 5px;
+  }
+
+  #bbqset-coursetoadd, #drink-coursetoadd, #option-coursetoadd {
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    width: calc(74% + 50px);
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    border: 1px solid silver;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .child-block {
+    display: block;
+  }
+
+  .vali-return-msg-excess {
+    height: 28px;
+  }
+
+  .fieldtitle-excess {
+    font-size: 13px;
+  }
+
+}
+
+
+/* reservation_confirm */
+
+.confirm {
+  width: 70%;
+  padding: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: white;
+}
+
+.confirm-title, .confirm-box {
+  border-bottom: 1px solid silver;
+}
+
+.confirm-title {
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.confirm-box-title {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.confirm-item-name {
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+.confirm-item-text {
+  margin: 0px 0px 30px 30px;
+}
+
+.confirm-box-block, .children-box-block {
+  display: flex;
+}
+
+.confirm-box-text {
+  margin-left: 30px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.form-block {
+  display: flex;
+}
+
+.adult-box, .date-box {
+  margin-right: 40px;
+}
+
+.schoolchildren-box {
+  margin-right: 20px;
+}
+
+.menu-box {
+  width: 70%;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: floralwhite;
+}
+
+
+/* reservation_index */
+
+.return-link {
+  padding: 30px 0px 0px 30px;
+}
+
+.reservationindex-main {
+  display: block;
+  position: relative;
+}
+
+.admin-name {
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.admin-name-size {
+  font-size: 25px;
+  font-weight: bold;
+  color: tan;
+}
+
+.reservationindex-title {
+  padding: 70px 30px 30px 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table {
+  margin: 0px 30px;
+}
+
+.index-table {
+  margin-bottom: 100px;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid silver;
+}
+
+th {
+  background-color: gainsboro;
+}
+
+
+/* reservation_create */
+
+.reservation-main-adjust {
+  height: 100vh;
+}
+
+.thanksmsg {
+  width: 70%;
+  padding: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* reservation_show */
+
+.show-main {
+  margin: 0px 0px 100px 50px;
+}
+
+.show-order {
+  margin-bottom: 50px;
+}
+
+.show-title {
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.show-order-item {
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+.show-order-item-span {
+  font-weight: 400;
+}
+
+.show-productorder-box {
+  margin-bottom: 30px;
+}
+
+
+/* reservation_phase_edit */
+
+.admin-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.admin-field {
+  width: 60%;
+  padding: 50px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.admin-field-title {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.phasecolor-blue {
+  color: blue;
+}
+
+.phasecolor-green {
+  color: green;
+}
+
+.phasecolor-red {
+  color: red;
+}
+
+
+/* reservation_phase_update */
+
+.radio-block {
+  display: flex;
+}
