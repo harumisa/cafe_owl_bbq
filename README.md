@@ -117,4 +117,13 @@ MAMP・MySQL・PHP・JavaScript・jQuery・HTML・CSS
 |password|varchar(100)|NOT NULL|
 |role|int|NOT NULL|
 
+### tokensテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|id|int|NOT NULL, PRIMARY KEY|
+|admin_id|int|NOT NULL|
+|token|varchar(100)|NOT NULL|
+|datetime|datetime|NOT NULL|
+
 お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポートしていただければご使用いただけます。
