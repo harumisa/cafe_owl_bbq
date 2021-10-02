@@ -40,7 +40,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
 <body>
   <p class="return-link"><a href="admin_index.php">管理者一覧へ戻る</a></p>

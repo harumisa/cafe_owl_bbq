@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
 <body>
   <p class="return-link"><a href="index.php">トップページへ戻る</a></p>

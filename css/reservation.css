@@ -45,7 +45,7 @@ body {
 .reservation-main {
   width: 100%;
   padding: 100px 0px 200px 0px;
-  background-image: url(/img/reservation-backimage.jpg);
+  background-image: url(../img/reservation-backimage.jpg);
   background-color:rgba(255,255,255,0.5);
   background-blend-mode:lighten;
   background-size: 100%;
@@ -131,7 +131,7 @@ body {
 .reservation-main {
   width: 100%;
   padding: 100px 0px 200px 0px;
-  background-image: url(/img/reservation-backimage.jpg);
+  background-image: url(../img/reservation-backimage.jpg);
   background-color:rgba(255,255,255,0.5);
   background-blend-mode:lighten;
   background-size: 100%;

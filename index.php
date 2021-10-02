@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.inview.min.js"></script>
 </head>
 <body>
   <div class="main">
@@ -47,17 +47,17 @@
         </div>
         <div class="content1-main">
           <div class="content1-main-text">
-            <img src="/img/bbq-illust1.png" class="bbq-illust1">
-            <img src="/img/bbq-illust2.png" class="bbq-illust2">
+            <img src="img/bbq-illust1.png" class="bbq-illust1">
+            <img src="img/bbq-illust2.png" class="bbq-illust2">
             <div class="syutsugen1">
               <p class="contentstextdecoration"><span class="contentspan">ナ</span>チュラルでオーガニック、おしゃれで快適な空間を演出。</p>
               会場は筑波山を目の前に臨める最高のロケーション。<br/>
               自然に溶け込むナチュラルな装いを基調とした、ゆったりとくつろげる空間です。</br>
               </br>
               <div class="imagearea">
-                <img src="/img/tsukubasan.jpeg" class="content1-image">
-                <img src="/img/kaijoimage.jpg" class="content1-image">
-                <img src="/img/tentimage.jpg" class="content1-image">
+                <img src="img/tsukubasan.jpeg" class="content1-image">
+                <img src="img/kaijoimage.jpg" class="content1-image">
+                <img src="img/tentimage.jpg" class="content1-image">
               </div>
               </br>
               <div class="precautions">
@@ -78,8 +78,8 @@
               　風通しの良い空間なので、大切な方との楽しい時間を思い切り楽しめます。</br>
               </br>
               <div class="imagearea">
-                <img src="/img/kazoku.jpg" class="content1-image2">
-                <img src="/img/yu-jin.jpg" class="content1-image2">
+                <img src="img/kazoku.jpg" class="content1-image2">
+                <img src="img/yu-jin.jpg" class="content1-image2">
               </div>
               </br>
               <div class="precautions">
@@ -91,8 +91,8 @@
               　ご家族、ご友人とはもちろん、会社としてのご会食や、サークル、クラブなど団体でのお集まりの場としても是非ご利用ください。</br>
               </br>
               <div class="imagearea">
-                <img src="/img/partyimage1.jpg" class="content1-image2">
-                <img src="/img/partyimage2.jpeg" class="content1-image2">
+                <img src="img/partyimage1.jpg" class="content1-image2">
+                <img src="img/partyimage2.jpeg" class="content1-image2">
               </div>
               </br>
               <div class="precautions">
@@ -111,14 +111,14 @@
         </div>
         <div class="content2-main">
           <div class="content2-main-text">
-            <img src="/img/bbq-illust3.png" class="bbq-illust3">
-            <img src="/img/bbq-illust4.png" class="bbq-illust4">
+            <img src="img/bbq-illust3.png" class="bbq-illust3">
+            <img src="img/bbq-illust4.png" class="bbq-illust4">
             <p class="contentstextdecoration"><span class="contentspan">ご</span>利用までたったの３ステップ</p>
             <div class="imagearea">
               <div class="step">
-                <img src="/img/num1.png" class="content2-image">
+                <img src="img/num1.png" class="content2-image">
                 <p class="step-title">予約する</p>
-                <img src="/img/step1.png" class="content2-image2">
+                <img src="img/step1.png" class="content2-image2">
                 <div class="step-text">
                   ご予約はネットで完結！現地での面倒な手続きなし！</br>
                   日時からご利用プランの設定まで全てネット予約で完結します。</br>
@@ -126,18 +126,18 @@
                 </div>
               </div>
               <div class="step">
-                <img src="/img/num2.png" class="content2-image">
+                <img src="img/num2.png" class="content2-image">
                 <p class="step-title">当日会場へ</p>
-                <img src="/img/step2.png" class="content2-image2">
+                <img src="img/step2.png" class="content2-image2">
                 <div class="step-text">
                   予約いただいたお時間までに会場へお越しください。</br>
                   受付後、すぐにお食事を開始できます。
                 </div>
               </div>
               <div class="step">
-                <img src="/img/num3.png" class="content2-image">
+                <img src="img/num3.png" class="content2-image">
                 <p class="step-title">BBQを楽しむ！</p>
-                <img src="/img/step3.png" class="content2-image2">
+                <img src="img/step3.png" class="content2-image2">
                 <div class="step-text">
                   あとはBBQを楽しむだけ！</br>
                   後片付けの必要もないのでそのままお帰りいただけます。
@@ -154,32 +154,32 @@
         </div>
         <div class="content3-main">
           <div class="content3-main-text">
-            <img src="/img/bbq-illust5.png" class="bbq-illust5">
-            <img src="/img/bbq-illust6.png" class="bbq-illust6">
+            <img src="img/bbq-illust5.png" class="bbq-illust5">
+            <img src="img/bbq-illust6.png" class="bbq-illust6">
             <div class="syutsugen3">
               <p class="contentstextdecoration"><span class="contentspan">選</span>べるメニュープラン</p>
               ボリューム満点！高品質で多彩な食材をお楽しみいただけます。<br/>
               <br/>
               <div class="imagearea">
                 <div class="menuitem">
-                  <img src="/img/ri-zunaburu.png" class="content3-image">
+                  <img src="img/ri-zunaburu.png" class="content3-image">
                   <p class="menuitem-title">リーズナブル</p>
                   <p class="menuitem-price">¥2,750<span class="menuitem-price-span">（税込）</span></p>
                 </div>
                 <div class="menuitem">
-                  <img src="/img/sutanda-do.png" class="content3-image">
+                  <img src="img/sutanda-do.png" class="content3-image">
                   <p class="menuitem-title">スタンダード</p>
                   <p class="menuitem-price">¥3,850<span class="menuitem-price-span">（税込）</span></p>
                 </div>
               </div>
               <div class="imagearea">
                 <div class="menuitem">
-                  <img src="/img/derakkusu.png" class="content3-image">
+                  <img src="img/derakkusu.png" class="content3-image">
                   <p class="menuitem-title">デラックス</p>
                   <p class="menuitem-price">¥5,500<span class="menuitem-price-span">（税込）</span></p>
                 </div>
                 <div class="menuitem">
-                  <img src="/img/kizzu.png" class="content3-image">
+                  <img src="img/kizzu.png" class="content3-image">
                   <p class="menuitem-title">キッズ</p>
                   <p class="menuitem-price">¥1,650<span class="menuitem-price-span">（税込）</span></p>
                 </div>

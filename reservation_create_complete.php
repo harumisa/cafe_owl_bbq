@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/reservation.css">
+  <link rel="stylesheet" type="text/css" href="css/reservation.css">
 </head>
 <body>
   <div class="reservation-main reservation-main-adjust">

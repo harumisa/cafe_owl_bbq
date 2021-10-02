@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -18,7 +18,7 @@
             <p class="bbq-name">BBQセットメニュー <span class="bbq-name-span">⚠️要事前予約。当日のご注文は承っておりませんのでご注意ください。</span></p>
             <div class="bbq-items">
               <div class="bbq-item">
-                <img src="/img/ri-zunaburu.png" class="bbq-image">
+                <img src="img/ri-zunaburu.png" class="bbq-image">
                 <p class="menuitem-title">リーズナブル</p>
                 <p class="menuitem-price">1人前¥2,750<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/sutanda-do.png" class="bbq-image">
+                <img src="img/sutanda-do.png" class="bbq-image">
                 <p class="menuitem-title">スタンダード</p>
                 <p class="menuitem-price">1人前¥3,850<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -57,7 +57,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/derakkusu.png" class="bbq-image">
+                <img src="img/derakkusu.png" class="bbq-image">
                 <p class="menuitem-title">デラックス</p>
                 <p class="menuitem-price">1人前¥5,500<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/kizzu.png" class="bbq-image">
+                <img src="img/kizzu.png" class="bbq-image">
                 <p class="menuitem-title">キッズ(小学生まで)</p>
                 <p class="menuitem-price">1人前¥1,650<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -98,7 +98,7 @@
             <p class="bbq-name">飲み放題メニュー <span class="bbq-name-span">⚠️要事前予約。当日のご注文は承っておりませんのでご注意ください。</span></p>
             <div class="bbq-items">
               <div class="bbq-item">
-                <img src="/img/aruko-ru.jpeg" class="bbq-image">
+                <img src="img/aruko-ru.jpeg" class="bbq-image">
                 <p class="menuitem-title">フリードリンク(アルコール付)</p>
                 <p class="menuitem-price">1人前¥1,650<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -109,7 +109,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/sofutodorinku.jpeg" class="bbq-image">
+                <img src="img/sofutodorinku.jpeg" class="bbq-image">
                 <p class="menuitem-title">フリードリンク(ノンアルコール)</p>
                 <p class="menuitem-price">1人前¥1,100<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -123,7 +123,7 @@
             <p class="bbq-name">オプションメニュー <span class="bbq-name-span">⚠️要事前予約。当日のご注文は承っておりませんのでご注意ください。(『キッズかき氷』のみ当日のご注文も可です)</span></p>
             <div class="bbq-items">
               <div class="bbq-item">
-                <img src="/img/sa-roinsute-ki.jpeg" class="bbq-image">
+                <img src="img/sa-roinsute-ki.jpeg" class="bbq-image">
                 <p class="menuitem-title">牛サーロインステーキ</p>
                 <p class="menuitem-price">¥1,980<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">
@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/nikumoriawase.jpeg" class="bbq-image">
+                <img src="img/nikumoriawase.jpeg" class="bbq-image">
                 <p class="menuitem-title">肉盛合わせ</p>
                 <p class="menuitem-price">¥1,320<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -145,7 +145,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/ronguso-se-ji.jpeg" class="bbq-image">
+                <img src="img/ronguso-se-ji.jpeg" class="bbq-image">
                 <p class="menuitem-title">粗挽きロングソーセージ(4本)</p>
                 <p class="menuitem-price">¥880<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">
@@ -153,7 +153,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/kaisensetto.jpg" class="bbq-image">
+                <img src="img/kaisensetto.jpg" class="bbq-image">
                 <p class="menuitem-title">海鮮セット</p>
                 <p class="menuitem-price">¥1,980<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -166,7 +166,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/mu-rugai.jpg" class="bbq-image">
+                <img src="img/mu-rugai.jpg" class="bbq-image">
                 <p class="menuitem-title">ムール貝(ガーリックバター付 8個)</p>
                 <p class="menuitem-price">¥1,430<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">
@@ -174,7 +174,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/yakiyasaisetto.jpg" class="bbq-image">
+                <img src="img/yakiyasaisetto.jpg" class="bbq-image">
                 <p class="menuitem-title">焼き野菜セット</p>
                 <p class="menuitem-price">¥1,045<span class="menuitem-price-span">（税込）</span></p>
                 <div class="bbq-contents">
@@ -190,7 +190,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/edamame.jpeg" class="bbq-image">
+                <img src="img/edamame.jpeg" class="bbq-image">
                 <p class="menuitem-title">枝豆</p>
                 <p class="menuitem-price">¥330<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">
@@ -198,7 +198,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/yakionigiri.jpg" class="bbq-image">
+                <img src="img/yakionigiri.jpg" class="bbq-image">
                 <p class="menuitem-title">焼おにぎり(4個)</p>
                 <p class="menuitem-price">¥550<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">
@@ -206,7 +206,7 @@
                 </div>
               </div>
               <div class="bbq-item">
-                <img src="/img/kakigoori.jpeg" class="bbq-image">
+                <img src="img/kakigoori.jpeg" class="bbq-image">
                 <p class="menuitem-title">キッズかき氷(シロップかけ放題)</p>
                 <p class="menuitem-price">¥200<span class="menuitem-price-span">（税込）</span></p>
                 <div class="precautions">

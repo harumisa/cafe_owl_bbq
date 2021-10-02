@@ -48,7 +48,7 @@ body {
 
 .main {
   width: 100%;
-  background-image: url(/img/index-backimage.jpg);
+  background-image: url(../img/index-backimage.jpg);
   background-size: 100%;
   background-repeat: repeat;
   background-position: center;
@@ -181,7 +181,7 @@ header {
 .top {
   width: 100vw;
   height: 800px;
-  background-image: url(/img/topimage.jpg);
+  background-image: url(../img/topimage.jpg);
   background-size: cover;
   background-position: center;
 }

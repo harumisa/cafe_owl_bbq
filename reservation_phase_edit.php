@@ -12,7 +12,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe OWL BBQ</title>
-  <link rel="stylesheet" type="text/css" href="/css/reservation.css">
+  <link rel="stylesheet" type="text/css" href="css/reservation.css">
 </head>
 <body>
   <p class="return-link"><a href="reservation_index.php">予約一覧へ戻る</a></p>
