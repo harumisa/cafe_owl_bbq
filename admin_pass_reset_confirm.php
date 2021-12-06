@@ -68,7 +68,7 @@
     $message = '
 ------------------------------------
 ▼パスワード再設定URL
-http://localhost/admin_pass_reset_url.php?token='.$token.'
+http://localhost/cafe_owl_bbq/admin_pass_reset_url.php?token='.$token.'
 (URL有効期限：発行から1時間)
 ------------------------------------
     ';

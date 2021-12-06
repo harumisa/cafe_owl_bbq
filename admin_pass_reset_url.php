@@ -64,6 +64,6 @@
   } else {
     session_start();
     $_SESSION['token'] = true;
-    header('Location: admin_pass_reset_setting.php?token='.$token['token'].'');
+    header('Location: /cafe_owl_bbq/admin_pass_reset_setting.php?token='.$token['token'].'');
   }
 ?>
