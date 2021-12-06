@@ -72,7 +72,7 @@
     foreach($_POST as $key=>$val) {
       if (strpos($key, 'bbqset-name') !== false) {
         if ($val !== '-') {
-          $bbqset_namesandquantities[$bbqset_name_count]['bbqset_products_id'] = $val-1;
+          $bbqset_namesandquantities[$bbqset_name_count]['bbqset_products_id'] = $val;
         } else {
           $bbqset_namesandquantities[$bbqset_name_count]['bbqset_products_id'] = '-';
         }
@@ -82,7 +82,7 @@
         $bbqset_quantity_count++;
       } elseif (strpos($key, 'drink-name') !== false) {
         if ($val !== '-') {
-          $drink_namesandquantities[$drink_name_count]['drink_products_id'] = $val-1;
+          $drink_namesandquantities[$drink_name_count]['drink_products_id'] = $val;
         } else {
           $drink_namesandquantities[$drink_name_count]['drink_products_id'] = '-';
         }
@@ -92,7 +92,7 @@
         $drink_quantity_count++;
       } elseif (strpos($key, 'option-name') !== false) {
         if ($val !== '-') {
-          $option_namesandquantities[$option_name_count]['option_products_id'] = $val-1;
+          $option_namesandquantities[$option_name_count]['option_products_id'] = $val;
         } else {
           $option_namesandquantities[$option_name_count]['option_products_id'] = '-';
         }
@@ -326,7 +326,7 @@
         </div>
       </div>
       <div class="confirm-box">
-        <p class="confirm-box-title">表者の方のご連絡先</p>
+        <p class="confirm-box-title">代表者の方のご連絡先</p>
         <div class="confirm-box-text">
           <p class="confirm-item-name">お名前</p>
           <p class="confirm-item-text"><?=$_POST['name'] ?> (<?=$_POST['name_kana'] ?>)　様</p>

@@ -163,7 +163,7 @@
                   <select name="bbqset-name0" class="inputfield fieldwidth4">
                     <option value="-">-----</option>
                     <?php foreach($bbqset_products as $bbqset_product): ?>
-                      <option value="<?=$bbqset_product['id'] ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
+                      <option value="<?=$bbqset_product['id']-1 ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
                     <?php endforeach ?>
                   </select>
                   <select name="bbqset-quantity0" class="inputfield fieldwidth3">
@@ -189,7 +189,7 @@
                   <select name="drink-name0" class="inputfield fieldwidth4">
                     <option value="-">-----</option>
                     <?php foreach($drink_products as $drink_product): ?>
-                      <option value="<?=$drink_product['id'] ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
+                      <option value="<?=$drink_product['id']-1 ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
                     <?php endforeach ?>
                   </select>
                   <select name="drink-quantity0" class="inputfield fieldwidth3">
@@ -215,7 +215,7 @@
                   <select name="option-name0" class="inputfield fieldwidth4">
                     <option value="-">-----</option>
                     <?php foreach($option_products as $option_product): ?>
-                      <option value="<?=$option_product['id'] ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
+                      <option value="<?=$option_product['id']-1 ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
                     <?php endforeach ?>
                   </select>
                   <select name="option-quantity0" class="inputfield fieldwidth3">
@@ -387,7 +387,7 @@
                           <select name="bbqset-name0" class="inputfield fieldwidth4">
                             <option value="-">-----</option>
                             <?php foreach($bbqset_products as $bbqset_product): ?>
-                              <option value="<?=$bbqset_product['id'] ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
+                              <option value="<?=$bbqset_product['id']-1 ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
                             <?php endforeach ?>
                           </select>
                           <select name="bbqset-quantity0" class="inputfield fieldwidth3">
@@ -413,7 +413,7 @@
                           <select name="drink-name0" class="inputfield fieldwidth4">
                             <option value="-">-----</option>
                             <?php foreach($drink_products as $drink_product): ?>
-                              <option value="<?=$drink_product['id'] ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
+                              <option value="<?=$drink_product['id']-1 ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
                             <?php endforeach ?>
                           </select>
                           <select name="drink-quantity0" class="inputfield fieldwidth3">
@@ -439,7 +439,7 @@
                           <select name="option-name0" class="inputfield fieldwidth4">
                             <option value="-">-----</option>
                             <?php foreach($option_products as $option_product): ?>
-                              <option value="<?=$option_product['id'] ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
+                              <option value="<?=$option_product['id']-1 ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
                             <?php endforeach ?>
                           </select>
                           <select name="option-quantity0" class="inputfield fieldwidth3">
@@ -459,7 +459,7 @@
                           <select name="before1" class="inputfield fieldwidth4">
                             <option value="-">-----</option>
                             <?php foreach($bbqset_products as $bbqset_product): ?>
-                              <option value="<?=$bbqset_product['id'] ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
+                              <option value="<?=$bbqset_product['id']-1 ?>"><?="{$bbqset_product['name']}　　¥{$bbqset_product['price']}" ?></option>
                             <?php endforeach ?>
                           </select>
                           <select name="before2" class="inputfield fieldwidth3">
@@ -481,7 +481,7 @@
                         <select name="before1" class="inputfield fieldwidth4">
                           <option value="-">-----</option>
                           <?php foreach($drink_products as $drink_product): ?>
-                            <option value="<?=$drink_product['id'] ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
+                            <option value="<?=$drink_product['id']-1 ?>"><?="{$drink_product['name']}　　¥{$drink_product['price']}" ?></option>
                           <?php endforeach ?>
                         </select>
                         <select name="before2" class="inputfield fieldwidth3">
@@ -503,7 +503,7 @@
                           <select name="before1" class="inputfield fieldwidth4">
                             <option value="-">-----</option>
                             <?php foreach($option_products as $option_product): ?>
-                              <option value="<?=$option_product['id'] ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
+                              <option value="<?=$option_product['id']-1 ?>"><?="{$option_product['name']}　　¥{$option_product['price']}" ?></option>
                             <?php endforeach ?>
                           </select>
                           <select name="before2" class="inputfield fieldwidth3">
